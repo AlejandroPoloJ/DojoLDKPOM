@@ -168,7 +168,7 @@ import { DOJO, PROGRAMS } from '../core/site-data';
                     type="tel"
                     formControlName="phone"
                     autocomplete="tel"
-                    placeholder="11 5555 0198"
+                    placeholder="999 000 111"
                     class="w-full rounded-sm border border-white/15 bg-ink-950 px-4 py-3 text-paper placeholder:text-muted/60 transition-colors focus:border-gold-400"
                   />
                 </div>
@@ -186,7 +186,7 @@ import { DOJO, PROGRAMS } from '../core/site-data';
                   [attr.aria-invalid]="invalid('program')"
                   [attr.aria-describedby]="invalid('program') ? 'err-program' : null"
                 >
-                  <option value="" disabled>Seleccioná una opción</option>
+                  <option value="" disabled>Selecciona una opción</option>
                   @for (program of programs; track program.id) {
                     <option [value]="program.title">{{ program.title }}</option>
                   }
@@ -208,7 +208,7 @@ import { DOJO, PROGRAMS } from '../core/site-data';
                   id="message"
                   formControlName="message"
                   rows="3"
-                  placeholder="Contanos tu experiencia o consulta..."
+                  placeholder="Cuéntanos tu experiencia o consulta..."
                   class="w-full resize-none rounded-sm border border-white/15 bg-ink-950 px-4 py-3 text-paper placeholder:text-muted/60 transition-colors focus:border-gold-400"
                 ></textarea>
               </div>
