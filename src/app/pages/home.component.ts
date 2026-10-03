@@ -24,7 +24,6 @@ import { FooterComponent } from '../components/footer.component';
     ScheduleComponent,
     EventsComponent,
     GalleryComponent,
-    CoachesComponent,
     TestimonialsComponent,
     FaqComponent,
     ContactComponent,
